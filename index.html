@@ -4,19 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="포도의 Today I Learn" />
+    <meta property="og:description" content="매일 성장하는 개발자 포도의 학습 기록 페이지입니다." />
+    <meta property="og:image" content="https://picsum.photos/id/102/1200/630" />
+    <meta property="og:type" content="website" />
 
-    <title>Today I Learn</title>
+    <title>Today I Learn - 포도</title>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <!-- 상단 내비게이션 -->
     <nav class="top-nav">
-      <span class="nav-logo">My Page</span>
+      <span class="nav-logo">Podo's Log</span>
       <ul class="nav-links">
         <li><a href="#about">자기소개</a></li>
         <li><a href="#gallery">갤러리</a></li>
@@ -25,90 +24,120 @@
       </ul>
     </nav>
 
-    <!-- 프로필 히어로 -->
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img
+            src="https://picsum.photos/id/1062/200/200"
+            alt="포도 프로필 사진"
+            style="border-radius: 50%; width: 100%; height: 100%; object-fit: cover"
+          />
         </div>
         <div class="profile-info">
           <h1>포도</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <p class="tagline">"달콤한 결실을 위해 매일 한 송이씩 기록합니다."</p>
         </div>
       </div>
     </section>
 
     <main>
-      <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <p>
+          안녕하세요! 사용자의 마음을 사로잡는 프론트엔드 개발자를 꿈꾸는
+          <strong>포도</strong>입니다.<br />
+          어려운 문제를 만났을 때 해결해 나가는 과정에서 큰 즐거움을 느낍니다. 현재는 HTML, CSS,
+          JavaScript를 정복하기 위해 매일 공부하고 있습니다.
+        </p>
+        <p>
+          <a href="https://github.com/" target="_blank">🔗 GitHub 방문하기</a> |
+          <a href="https://velog.io/" target="_blank">📝 기술 블로그 보러가기</a>
+        </p>
       </section>
 
-      <!-- 기본 정보 -->
       <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>포도 (Podo)</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>ENFP (활동가)</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>코딩하기, 조깅, 맛집 탐방</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>시원한 샤인머스캣, 떡볶이</td>
           </tr>
         </table>
       </section>
 
-      <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">내가 좋아하는 평화로운 순간들</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img src="https://picsum.photos/id/1/300/300" alt="작업 공간" />
+          <img src="https://picsum.photos/id/10/300/300" alt="자연" />
+          <img src="https://picsum.photos/id/20/300/300" alt="책상 위" />
+          <img src="https://picsum.photos/id/24/300/300" alt="산책로" />
+          <img src="https://picsum.photos/id/36/300/300" alt="노트북" />
+          <img src="https://picsum.photos/id/42/300/300" alt="커피 한 잔" />
+          <img src="https://picsum.photos/id/48/300/300" alt="컴퓨터" />
+          <img src="https://picsum.photos/id/54/300/300" alt="풍경" />
+          <img src="https://picsum.photos/id/60/300/300" alt="데스크테리어" />
         </div>
       </section>
 
-      <!-- 나를 울린 인생 작품 -->
       <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
         <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
           <article class="work-card">
             <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
+              <img
+                src="https://picsum.photos/id/111/400/250"
+                alt="영화 어바웃 타임"
+                style="width: 100%; border-radius: 8px"
+              />
             </div>
             <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
+              <h3>영화 '어바웃 타임'</h3>
+              <p>
+                평범한 하루의 소중함을 일깨워준 영화입니다. 매 순간 최선을 다해 살아야겠다는 다짐을
+                하게 해줬어요.
+              </p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-thumbnail">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/P9-6_v9P82s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style="border-radius: 8px"
+              ></iframe>
+            </div>
+            <div class="work-info">
+              <h3>코딩 동기부여 영상</h3>
+              <p>개발 공부가 힘들 때마다 꺼내 보는 영상입니다. 끈기의 중요성을 다시금 배웁니다.</p>
             </div>
           </article>
         </div>
       </section>
 
-      <!-- TIL (Today I Learned) -->
       <section class="content-section" id="til">
         <h2>TIL</h2>
         <p class="section-desc">오늘 새롭게 배운 것들을 기록합니다.</p>
 
-        <!-- TIL 작성 폼 -->
         <form class="til-form" id="til-form">
           <div class="form-group">
             <label for="til-date">날짜</label>
@@ -139,14 +168,21 @@
           </div>
         </form>
 
-        <!-- TIL 목록: 폼으로 등록하면 여기에 항목이 추가됩니다 -->
         <div class="til-list" id="til-list">
-          <!-- 아래는 예시 항목입니다. 자유롭게 수정하거나 삭제하세요 -->
           <article class="til-item">
-            <time>2026-03-15</time>
+            <time>2024-03-18</time>
+            <h3>GitHub Pages 배포 성공!</h3>
+            <p>
+              내가 만든 HTML 페이지를 전 세계 누구나 볼 수 있게 깃허브 페이지로 배포하는 방법을
+              익혔다. 너무 신기하다!
+            </p>
+          </article>
+          <article class="til-item">
+            <time>2024-03-15</time>
             <h3>HTML 시멘틱 태그</h3>
             <p>
               header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.
+              웹 접근성에 한 걸음 더 다가갔다.
             </p>
           </article>
         </div>
@@ -154,7 +190,7 @@
     </main>
 
     <footer>
-      <p>&copy; My Page</p>
+      <p>&copy; 2024 Podo. All rights reserved.</p>
     </footer>
   </body>
 </html>
